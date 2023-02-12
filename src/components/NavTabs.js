@@ -42,7 +42,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                     Resume
                 </a>
             </li>
-            
+
     </ul>
     );
 }
+
+export default NavTabs;
