@@ -6,7 +6,7 @@ function Header(props) {
 
     return (
         <div>
-            <div className="bg-dark bg-opacity-75 text-light">
+            <div className="bg-dark bg-opacity- text-light">
                 <h1>Alexander Frankhouser</h1>
                 <NavTabs
                     currentPage={currentPage} 
