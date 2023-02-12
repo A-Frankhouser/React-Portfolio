@@ -11,7 +11,7 @@ import Resume from './components/pages/Resume';
 
 function App() {
   // Conditional statement to render the appropriate page depending on the navTab clicked on.
-  const [currentPage, setCurrentPage] = useState('about')
+  const [currentPage, setCurrentPage] = useState('bout')
 
   const renderPage = () => {
     if (currentPage === 'About') {
