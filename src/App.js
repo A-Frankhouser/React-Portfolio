@@ -32,14 +32,19 @@ function App() {
 
   return (
     <div>
+      {/* Header */}
+      <div>
+        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
       {/* Nav Bar */}
-      <div>
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
-      </div>
+      {/* <div>
+        <NavTabs
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+      </div> */}
       {/* Rendered Page: */}
-      <div>
-        {renderPage}
-      </div>
+      <div>{renderPage}</div>
     </div>
   );
 };
