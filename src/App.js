@@ -14,16 +14,16 @@ function App() {
   const [currentPage, setCurrentPage] = useState('about')
 
   const renderPage = () => {
-    if (currentPage === 'about') {
+    if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === "contact") {
+    if (currentPage === "Contact") {
       return <Contact />;
     }    
-    if (currentPage === "portfolio") {
+    if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
-    if (currentPage === "resume") {
+    if (currentPage === "Resume") {
       return <Resume />;
     }
   };
@@ -36,10 +36,12 @@ function App() {
       <div>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
+
       {/* Rendered Page: */}
       <div>
-        <main>{renderPage}</main>
+        <main>{renderPage()}</main>
       </div>
+
       {/* Footer */}
       <div>
         <Footer />

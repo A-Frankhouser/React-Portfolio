@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* About Section */
+#aboutImg {
+  height: 400px;
+  border-radius: 5%;
+}
+
+
+/* Footer Section */
+.icon {
+  height: 50px;
+}
+
+#footer {
+  width: 100%;
+}
