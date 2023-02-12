@@ -14,9 +14,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('bout')
 
   const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
+
     if (currentPage === "Contact") {
       return <Contact />;
     }    
@@ -26,6 +24,7 @@ function App() {
     if (currentPage === "Resume") {
       return <Resume />;
     }
+      return <About />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
