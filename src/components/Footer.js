@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         // Footer Card
-        <div className="bg-dark d-flex flex-row position-absolute bottom-0" id="footer">
+        <div className="bg-dark d-flex flex-row position-relative bottom-0" id="footer">
             {/* Github Logo */}
             <a href="https://github.com/A-Frankhouser"><img src={require('../assets/github-mark-white.png')} alt="github-logo" className="icon ms-3"/></a>
             {/* Linkedin Logo */}

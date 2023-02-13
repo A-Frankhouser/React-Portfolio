@@ -1,6 +1,6 @@
 import React from "react";
-import Project from '../Project';
-import projectCards  from '../Project';
+import  Project  from '../Project';
+
 
 function Portfolio(props) {
 
@@ -13,11 +13,7 @@ function Portfolio(props) {
             </div>
             {/* Projects */}
             <div>
-                <ul>
-                    <li>
-                        <Project projectCards={projectCards[0]}/>
-                    </li>
-                </ul>
+                        <Project />
             </div>
         </div>
     )
