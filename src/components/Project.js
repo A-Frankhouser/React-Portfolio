@@ -68,7 +68,7 @@ function Project() {
     ];
 
     // const projectCards = projects.map(project => {
-        return(<div className="row row-cols-1 row-cols-md-2 g-4 ms-2 me-2 mt-3"> 
+        return(<div className="row row-cols-1 row-cols-md-2 g-4 ms-2 me-2 mt-3 mb-5"> 
         { projects.map((project,key) =>  (
         <div key={key} className='card-group mb-3'>
 
