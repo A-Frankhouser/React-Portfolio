@@ -99,8 +99,15 @@ a.nav-link:hover {
 #message {
   height: 250px;
 }
+/* ================ */
 
-.card{
-  width: 18rem;
+/* Portfolio */
+/* .card{
+  width: 20rem;
+} */
+
+#card-icon {
+  height: 30px;
+  width: 30px;
 }
 

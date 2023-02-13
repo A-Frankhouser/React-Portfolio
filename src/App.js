@@ -10,6 +10,7 @@ import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Project from "./components/Project";
 
+
 function App() {
   // Conditional statement to render the appropriate page depending on the navTab clicked on.
   const [currentPage, setCurrentPage] = useState('bout')
