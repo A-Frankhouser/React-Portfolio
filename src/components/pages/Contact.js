@@ -2,19 +2,46 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-    // useState for Contact Form:
-    const [formState, setFormState] = useState({
-        name: '',
-        email: '',
-        message: ''
-    });
+    // useState for Contact Form also set the useState to an empty string.
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    // useState for error messages.
+    const [errorMessage, setErrorMessage] = useState('');
 
-    // useState for error msg for email validation:
-    const [errorMsg, setErrorMsg] = useState("");
+    // Gets the value and name of the input change.
+    const handleInputChange = (e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
 
-    // Values for each part of the form:
-    const { name, email, message } = formState;
+        // Sets the useState depending on the inputType.
+        if (inputType === 'name') {
+            setName(inputValue);
+        } else if (inputType === 'email') {
+            setEmail(inputValue);
+        } else {
+            setMessage(inputValue)
+        }
+    };
 
-    // Function to validate error message and set error
-    function 
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        // Validates email and checks to make sure there is a name and message.
+        // If there is not one then sets the error message.
+        if (!validateEmail(email) || !name || !message) {
+            setErrorMessage(
+                'Please make sure all fields in the form are filled out and there are no blank spaces.'
+            );
+            return;
+        }
+        alert(`Hello ${name}, your message was successfully sent!`);
+
+        // If successful then clear the input fields.
+        setName('');
+        setEmail('');
+        setMessage('');
+    }
+
 }
