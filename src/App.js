@@ -8,6 +8,7 @@ import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
+import Project from "./components/Project";
 
 function App() {
   // Conditional statement to render the appropriate page depending on the navTab clicked on.
@@ -19,7 +20,7 @@ function App() {
       return <Contact />;
     }    
     if (currentPage === "Portfolio") {
-      return <Portfolio />;
+      return <Portfolio/>;
     }
     if (currentPage === "Resume") {
       return <Resume />;

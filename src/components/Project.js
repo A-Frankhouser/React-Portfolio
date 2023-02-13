@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Project(props) {
         // Projects in an array starting from the first one.
     const projectInfo = useState(props)[0].projects;
@@ -13,7 +14,7 @@ function Project(props) {
 
     return(
         // Project Card:
-        <Card>
+        <div>
                 {/* Card Image: */}
             <div className="card" style={'width: 18rem'}>
                 <img src={require(`../assets/${projectImage}`)} className="card-img-top" alt={projectTitle}/>
@@ -33,7 +34,7 @@ function Project(props) {
                     <a href={gitHubLink}><img src={require('../assets/github-mark-white.png')} alt='GitHub Icon' id="card-icon"/></a>
                 </div>
             </div>
-        </Card>
+        </div>
     );
 }
 
