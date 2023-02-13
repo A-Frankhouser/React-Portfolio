@@ -1,8 +1,8 @@
 import React from "react";
 import Project from '../Project';
-import { projectCards} from '../Project';
+import projectCards  from '../Project';
 
-function Portfolio() {
+function Portfolio(props) {
 
     return(
         <div className="container-base">
@@ -15,7 +15,7 @@ function Portfolio() {
             <div>
                 <ul>
                     <li>
-                        <Project projectCards={projectCards[0]}></Project>
+                        <Project projectCards={projectCards[0]}/>
                     </li>
                 </ul>
             </div>
