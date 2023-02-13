@@ -1,5 +1,6 @@
 import React from "react";
-import Project  from "../Project";
+import Project from '../Project';
+import { projectCards} from '../Project';
 
 function Portfolio() {
 
@@ -14,7 +15,7 @@ function Portfolio() {
             <div>
                 <ul>
                     <li>
-                        <Project  />
+                        <Project projectCards={projectCards[0]}></Project>
                     </li>
                 </ul>
             </div>
