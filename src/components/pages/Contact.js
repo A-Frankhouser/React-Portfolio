@@ -79,7 +79,7 @@ function Contact() {
                     name='message'
                     onChange={handleInputChange}
                     id="message"></textarea>
-                    <label for='message'>Message:</label>
+                    <label for='message' className="fw-semibold">Message:</label>
             </div>
             {/* Submit Button */}
             <button 
