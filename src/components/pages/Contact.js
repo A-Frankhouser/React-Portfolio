@@ -42,6 +42,60 @@ function Contact() {
         setName('');
         setEmail('');
         setMessage('');
-    }
+        setErrorMessage('');
+    };
 
+    // HTML for Contact Page:
+    return(
+    <div>
+        <form className="form">
+            {/* Name Section: */}
+            <div className="mb-3 ms-3 mt-3 me-3">
+                <label for='name' className="form-label">Name:</label>
+                <input
+                    className="form-control"
+                    value={name}
+                    name='name'
+                    onChange={handleInputChange}
+                    type='text'
+                    placeholder="Please state your name"></input>
+            </div>
+            {/* Email Section: */}
+            <div className="mb-3 ms-3 mt-3 me-3">
+                <label for='email' className="form-label">Email:</label>
+                <input
+                    className="form-control"
+                    value={email}
+                    name='email'
+                    onChange={handleInputChange}
+                    type='email'
+                    placeholder="Please enter you email address"></input>
+            </div>
+            {/* Message Section: */}
+            <div className="mb-3 ms-3 mt-3 me-3 form-floating">
+                <textarea
+                    className="form-control"
+                    value={message}
+                    name='message'
+                    onChange={handleInputChange}
+                    id="message"></textarea>
+                    <label for='message'>Message:</label>
+            </div>
+            {/* Submit Button */}
+            <button 
+                type="button" 
+                onClick={handleFormSubmit}
+                className='btn btn-primary btn-lg fs-3 mb-3 ms-3 mt-3'>Send<img src={require('../../assets/sendIcon-sm.png')} className='ms-3'/></button>
+        </form>
+        {/* Error Message: */}
+        {errorMessage && (
+            <div>
+                <p className="error-text ms-5 fst-italic fw-semibold">{errorMessage}</p>
+            </div>
+        )}
+    </div>
+    );
 }
+
+// Exports:
+export default Contact;
