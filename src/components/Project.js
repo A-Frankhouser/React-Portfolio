@@ -10,7 +10,7 @@ function Project() {
         {
             projectTitle: 'The Blog Spot',
             description: 'A full-stack blogging website that stores users login information, posts, and comments. Also allows users to view and comment on other peoples posts!',
-            image: '../assets/blog-img.png',
+            projectImage: '../assets/blog-img.png',
             technologies: 'HTML/CSS | JavaScript | Node.js | Express | Handlebars | mySQL | Sequelize | Bootstrap | Heroku',
             deployedURL: 'https://the-blog-spotv1.herokuapp.com/',
             gitHubLink: 'https://github.com/A-Frankhouser/Blog-Site'
@@ -29,7 +29,7 @@ function Project() {
         // Project Headspace Ai:
         {
             projectTitle: 'Headspace.AI',
-            description: 'A website for users to generate AI images and save them to a personal gallery.',
+            description: 'A website for users to create AI generated images and save them to a personal gallery. The user may also visit the feed tab to view all images from every users.',
             projectImage: '../assets/headspaceai.png',
             technologies:'HTML/CSS | JavaScript | Node.js | Express | Handlebars | mySQL | Sequelize | Bootstrap | 3rd Party API',
             deployedURL: 'https://headspaceai.herokuapp.com/',
@@ -68,10 +68,10 @@ function Project() {
     ];
 
     // const projectCards = projects.map(project => {
-        return(<div className="row"> 
+        return(<div className="row row-cols-1 row-cols-md-2 g-4 ms-2 me-2 mt-3"> 
         { projects.map((project,key) =>  (
-        <div key={key} className='col-sm-6'>
-            <div>
+        <div key={key} className='card-group mb-3'>
+
             <div className="card text-center">
                 <img src={project.projectImage} className="card-img-top" alt={project.projectTitle}/>
                 <div className="card-body">
@@ -82,12 +82,11 @@ function Project() {
                     <h5 className="card-title">Skills used:</h5>
                     <p className="card-text">{project.technologies}</p>
                 </div>
-                <div className="card-body">
+                <div className="card-footer">
                     <a href={project.deployedURL} className='btn btn-primary'>Website</a>
                     <a href={project.gitHubLink} className='btn btn-dark ms-2'>GitHub Repo</a>
                 </div>
             </div>
-        </div>
         </div>
         ))}
     </div>

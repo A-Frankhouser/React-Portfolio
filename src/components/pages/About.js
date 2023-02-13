@@ -9,7 +9,7 @@ function About() {
             </div>
 
             <div className="d-flex column">
-                <img src={require('../../assets/React-Portfolio.jpg')} id='aboutImg'/>
+                <img src={require('../../images/React-Portfolio.jpg')} id='aboutImg'/>
                 <p id="aboutBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ipsum suspendisse ultrices gravida dictum. Elit ut aliquam purus sit amet luctus venenatis. 
                 Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Enim nec dui nunc mattis enim ut tellus 

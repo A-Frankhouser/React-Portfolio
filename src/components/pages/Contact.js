@@ -85,7 +85,7 @@ function Contact() {
             <button 
                 type="button" 
                 onClick={handleFormSubmit}
-                className='btn btn-primary btn-lg fs-3 mb-3 ms-3 mt-3'>Send<img src={require('../../assets/sendIcon-sm.png')} className='ms-3'/></button>
+                className='btn btn-primary btn-lg fs-3 mb-3 ms-3 mt-3'>Send<img src={require('../../images/sendIcon-sm.png')} className='ms-3'/></button>
         </form>
         {/* Error Message: */}
         {errorMessage && (
