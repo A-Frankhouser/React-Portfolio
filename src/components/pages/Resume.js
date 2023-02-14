@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
     return(
-        <div className="container-base mb-5 ">
+        <div className="container-base mb-4 ">
             {/* Header: */}
             <div>
                 <h2 className="text-center mt-4 fs-2 fst-italic" id="aboutHeader">Resume</h2>
@@ -64,9 +64,9 @@ function Resume() {
             </div>
 
             {/* Download Resume: */}
-            <div className="mb-5 d-flex justify-content-center">
+            <div className="mb-3 d-flex justify-content-center">
                 <a href={require('../../Documents/Resume 2023.pdf')} download>
-                    <button className="btn btn-primary btn-lg mb-4" >Download my resume here!<img src={require('../../images/download-icon.png')} className='icon ms-3'/></button>
+                    <button className="btn btn-primary btn-lg mb-2" >Download my resume here!<img src={require('../../images/download-icon.png')} className='icon ms-3'/></button>
                 </a>
             </div>
         </div>

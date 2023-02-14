@@ -58,7 +58,7 @@ function Contact() {
         <form className="form">
             {/* Name Section: */}
             <div className="mb-3 ms-3 mt-3 me-3">
-                <label for='name' className="form-label">Name:</label>
+                <label htmlFor='name' className="form-label">Name:</label>
                 <input
                     className="form-control"
                     value={name}
@@ -69,7 +69,7 @@ function Contact() {
             </div>
             {/* Email Section: */}
             <div className="mb-3 ms-3 mt-3 me-3">
-                <label for='email' className="form-label">Email:</label>
+                <label htmlFor='email' className="form-label">Email:</label>
                 <input
                     className="form-control"
                     value={email}
@@ -87,7 +87,7 @@ function Contact() {
                     placeholder="Leave a comment here"
                     onChange={handleInputChange}
                     id="message"></textarea>
-                    <label for='message'>Message:</label>
+                    <label htmlFor='message'>Message:</label>
             </div>
             {/* Submit Button */}
             <a href= 'mailto:freesoul423@gmail.com?subject={name}&bcc={email}&body={message}'>
