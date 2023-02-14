@@ -73,6 +73,7 @@ hr {
 #navBar {
   display: flex;
   justify-content: flex-end;
+  position: sticky;
 }
 
 #header h1 {

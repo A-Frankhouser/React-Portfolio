@@ -69,7 +69,7 @@ function Contact() {
                     name='email'
                     onChange={handleInputChange}
                     type='email'
-                    placeholder="Please enter you email address"></input>
+                    placeholder="Please enter your email address"></input>
             </div>
             {/* Message Section: */}
             <div className="mb-3 ms-3 mt-3 me-3 form-floating">
@@ -77,9 +77,10 @@ function Contact() {
                     className="form-control"
                     value={message}
                     name='message'
+                    placeholder="Leave a comment here"
                     onChange={handleInputChange}
                     id="message"></textarea>
-                    <label for='message' className="fw-semibold">Message:</label>
+                    <label for='message'>Message:</label>
             </div>
             {/* Submit Button */}
             <button 

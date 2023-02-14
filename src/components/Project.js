@@ -83,8 +83,8 @@ function Project() {
                     <p className="card-text">{project.technologies}</p>
                 </div>
                 <div className="card-footer">
-                    <a href={project.deployedURL} className='btn btn-primary'>Website</a>
-                    <a href={project.gitHubLink} className='btn btn-dark ms-2'>GitHub Repo</a>
+                    <a href={project.deployedURL} className='btn btn-primary'>Website <img src={require('../images/deploy-icon.png')} alt="github-logo" className="icon ms-3"/></a>
+                    <a href={project.gitHubLink} className='btn btn-dark ms-2'>GitHub Repo <img src={require('../images/github-mark-white.png')} alt="github-logo" className="icon ms-3"/></a>
                 </div>
             </div>
         </div>
