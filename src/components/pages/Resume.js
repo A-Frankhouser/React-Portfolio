@@ -65,7 +65,7 @@ function Resume() {
 
             {/* Download Resume: */}
             <div className="mb-5 d-flex justify-content-center">
-                <a href="">
+                <a href={require('../../Documents/Resume 2023.pdf')} download>
                     <button className="btn btn-primary btn-lg mb-4" >Download my resume here!<img src={require('../../images/download-icon.png')} className='icon ms-3'/></button>
                 </a>
             </div>
