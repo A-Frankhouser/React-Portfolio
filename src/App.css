@@ -39,11 +39,12 @@
 
 /* About Page: */
 #aboutImg {
-  height: 400px;
+  height:max-content;
   border-radius: 5%;
   margin-left: 5%;
   margin-top: 4%;
   box-shadow: 10px 10px 5px #ccc;
+  /* width: max-content; */
 }
 
 hr {
@@ -73,14 +74,15 @@ hr {
 #navBar {
   display: flex;
   justify-content: flex-end;
-  position: sticky;
+  flex-wrap: wrap;
 }
 
 #header h1 {
   height: 60px;
-  font-size: 50px;
+  /* font-size: 50px; */
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
 }
 
 #header {

@@ -2,14 +2,18 @@ import React from "react";
 
 function About() {
     return(
-        <div className="container-base">
+        <div className="container-base mb-5">
             <div className="">
                 <h2 className="text-center mt-4 fs-2" id="aboutHeader">About Me</h2>
                 <hr className='ms-5'/>
             </div>
 
-            <div className="d-flex column">
-                <img src={require('../../images/React-Portfolio.jpg')} id='aboutImg'/>
+        <div className="row justify-content-center">
+            <div className="col-4 col-sm-3 mb-4">
+                <img src={require('../../images/React-Portfolio.jpg')} id='aboutImg' className="img-fluid"/>
+            </div>
+
+            <div className="col-8 col-sm-9 ">    
                 <p id="aboutBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
                 et dolore magna aliqua. Ipsum suspendisse ultrices gravida dictum. Elit ut aliquam purus sit amet luctus venenatis. 
                 Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Enim nec dui nunc mattis enim ut tellus 
@@ -24,6 +28,7 @@ function About() {
                 sit amet.
                 </p>
             </div>
+        </div>
         </div>
     )
 }
