@@ -8,6 +8,8 @@ function Footer() {
             <a href="https://github.com/A-Frankhouser"><img src={require('../images/github-mark-white.png')} alt="github-logo" className="icon ms-3"/></a>
             {/* Linkedin Logo */}
             <a href="https://www.linkedin.com/in/alex-frankhouser-670086266/"><img src={require('../images/LI-In-Bug.png')} alt='Linkedin Logo' className="icon ms-3"/></a>
+            {/* Email */}
+            <a href="mailto:freesoul423@gmail.com"><img src={require('../images/email-icon.png')} alt='Email Icon' className='icon ms-3'/></a>
         </div>
     )
 }

@@ -47,7 +47,14 @@ function Contact() {
 
     // HTML for Contact Page:
     return(
-    <div>
+    <div className="mb-5">
+        {/* Header */}
+        <div>
+            
+                <h2 className="text-center mt-4 fs-2 fst-italic" id="portfolioTitle">Contact Me</h2>
+                <hr className='ms-5'/>
+        </div>
+
         <form className="form">
             {/* Name Section: */}
             <div className="mb-3 ms-3 mt-3 me-3">
@@ -83,10 +90,13 @@ function Contact() {
                     <label for='message'>Message:</label>
             </div>
             {/* Submit Button */}
-            <button 
+            <a href= 'mailto:freesoul423@gmail.com?subject={name}&bcc={email}&body={message}'>
+            <button
                 type="button" 
                 onClick={handleFormSubmit}
-                className='btn btn-primary btn-lg fs-3 mb-3 ms-3 mt-3'>Send<img src={require('../../images/sendIcon-sm.png')} className='ms-3'/></button>
+                className='btn btn-primary btn-lg fs-3 mb-3 ms-3 mt-3'>Send<img src={require('../../images/sendIcon-sm.png')} className='ms-3'/>
+            </button>
+            </a>
         </form>
         {/* Error Message: */}
         {errorMessage && (
