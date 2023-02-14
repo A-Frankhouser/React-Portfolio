@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
     return(
-        <div className="container-base mb-5">
+        <div className="container-base mb-5 ">
             {/* Header: */}
             <div>
                 <h2 className="text-center mt-4 fs-2 fst-italic" id="aboutHeader">Resume</h2>
@@ -10,12 +10,12 @@ function Resume() {
             </div>
 
             {/* Intro: */}
-            <div className="row ms-5">
+            <div className="row text-center mb-3">
 
                 {/* Frontend */}
-                <div className="col-lg-4 col-md-12 mb-">
+                <div className="col-lg-6 col-sm-2 mb-2">
                     <h4>FRONT-END PROFICIENCIES:</h4>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -29,9 +29,9 @@ function Resume() {
                 </div>
 
                 {/* Backend */}
-                <div className="col-lg-4 col-md-12">
+                <div className="col-lg-6 col-sm-2 mb-2">
                     <h4>BACK-END PROFICIENCIES:</h4>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>Node.js</li>
                         <li>Express.js</li>
                         <li>API's (web, third-party, RESTful, server-side)</li>
@@ -41,9 +41,9 @@ function Resume() {
                 </div>
 
                 {/* DevTools: */}
-                <div className="col-lg-4 col-md-12">
+                <div className="col-lg-6 col-sm-2 mb-2">
                     <h4>DEV TOOL PROFICIENCIES:</h4>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>Git</li>
                         <li>Npm</li>
                         <li>Nodemon</li>
@@ -52,9 +52,9 @@ function Resume() {
                 </div>
                 
                 {/* Database's: */}
-                <div className="col-lg-4 col-md-12">
+                <div className="col-lg-6 col-sm-2 mb-2">
                     <h4>DATABASE PROFICIENCIES:</h4>
-                    <ul>
+                    <ul className='list-unstyled'>
                         <li>MySQL (sequelize)</li>
                         <li>NoSQL (MongoDB, Mongoose)</li>
                         <li>GraphQL</li>
