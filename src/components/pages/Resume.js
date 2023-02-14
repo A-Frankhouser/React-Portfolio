@@ -13,7 +13,7 @@ function Resume() {
             <div className="row text-center mb-3">
 
                 {/* Frontend */}
-                <div className="col-lg-6 col-sm-2 mb-2">
+                <div className="col-lg-6 mb-2">
                     <h4>FRONT-END PROFICIENCIES:</h4>
                     <ul className='list-unstyled'>
                         <li>HTML</li>
@@ -29,7 +29,7 @@ function Resume() {
                 </div>
 
                 {/* Backend */}
-                <div className="col-lg-6 col-sm-2 mb-2">
+                <div className="col-lg-6 mb-2">
                     <h4>BACK-END PROFICIENCIES:</h4>
                     <ul className='list-unstyled'>
                         <li>Node.js</li>
@@ -41,7 +41,7 @@ function Resume() {
                 </div>
 
                 {/* DevTools: */}
-                <div className="col-lg-6 col-sm-2 mb-2">
+                <div className="col-lg-6 mb-2">
                     <h4>DEV TOOL PROFICIENCIES:</h4>
                     <ul className='list-unstyled'>
                         <li>Git</li>
@@ -52,7 +52,7 @@ function Resume() {
                 </div>
                 
                 {/* Database's: */}
-                <div className="col-lg-6 col-sm-2 mb-2">
+                <div className="col-lg-6 mb-2">
                     <h4>DATABASE PROFICIENCIES:</h4>
                     <ul className='list-unstyled'>
                         <li>MySQL (sequelize)</li>
