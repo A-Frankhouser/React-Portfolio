@@ -32,7 +32,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="font-link">
       {/* Header and NavTabs */}
       <div>
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
