@@ -3,8 +3,8 @@ import React from "react";
 function About() {
     return(
         <div className="container-base mb-5">
-            <div className="">
-                <h2 className="text-center mt-4 fs-2" id="aboutHeader">About Me</h2>
+            <div>
+                <h2 className="text-center mt-4 fs-2 fst-italic" id="aboutHeader">About Me</h2>
                 <hr className='ms-5'/>
             </div>
 
