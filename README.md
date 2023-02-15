@@ -14,17 +14,17 @@ If you wish to install this application, then first you must clone this reposito
 When first visiting this web application the `About Me` section will appear. From their you can click on what page you want to visit next by selection the options in the navbar.
 
 - About Me:
-![About Me page](public/assets/Screenshot%20(42).png)
+![About Me page](src/assets/Screenshot%20(42).png)
 - Portfolio:
-![Portfolio page](public/assets/Screenshot%20(43).png)
+![Portfolio page](src/assets/Screenshot%20(43).png)
 - Resume:
-![Resume page](public/assets/Screenshot%20(44).png)
+![Resume page](src/assets/Screenshot%20(44).png)
 - Contact:
-![Contact page](public/assets/Screenshot%20(45).png)
+![Contact page](src/assets/Screenshot%20(45).png)
 
 ## Links
 GitHub Repository: https://github.com/A-Frankhouser/React-Portfolio <br>
-Deployed URL:
+Deployed URL: https://a-frankhouser.github.io/React-Portfolio/
 
 ## Contact Me
 If you have any questions or concerns please feel free to reach out to me anytime!<br>
