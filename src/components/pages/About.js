@@ -14,18 +14,21 @@ function About() {
             </div>
 
             <div className="col-lg-6 ms-5 me-4">    
-                <p id="aboutBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                et dolore magna aliqua. Ipsum suspendisse ultrices gravida dictum. Elit ut aliquam purus sit amet luctus venenatis. 
-                Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Enim nec dui nunc mattis enim ut tellus 
-                elementum sagittis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Amet porttitor eget dolor 
-                morbi non. Tincidunt eget nullam non nisi est. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Lectus proin 
-                nibh nisl condimentum id venenatis.<br />
-                <br />
-                Vulputate eu scelerisque felis imperdiet proin. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique 
-                senectus. Arcu non sodales neque sodales ut. Odio pellentesque diam volutpat commodo sed. Diam quis enim lobortis scelerisque. 
-                Dapibus ultrices in iaculis nunc sed augue lacus viverra. Nec ultrices dui sapien eget mi. Mollis nunc sed id semper risus in 
-                hendrerit. Accumsan tortor posuere ac ut. At in tellus integer feugiat scelerisque varius morbi enim. Consequat interdum varius 
-                sit amet.
+                <p id="aboutBody"> <></>Hello, I'm Alex Frankhouser. I started coding in 2022 and fell in love. What I
+                    love about coding is that there's much to learn and improve upon.
+                    Also, it's extremely satisfying to watch the hardwork put into a project come together and make
+                    something amazing! I love putting my all into something and producing unique
+                    works of art. When people describe me they tend to use the phrase "black & white person". I enjoy
+                    working with teams or by myself. No matter the situation I am faced with I will always stick it through!
+                    </p>
+                    <p id="aboutBody">
+                    Previously in life I went to college to become a teacher and become a physical therapist assistant. I
+                    completed my Massachusetts Tests for Educator License (MTEL's).
+                    After completing my MTEL's, I started my schooling to become a Physical Therapist Assistant. Once I
+                    graduated I realized that working in the healthcare field was not for me so
+                    I started my next venture by working full time at a wood yard. During this time I started from the
+                    bottom and worked my way up to become the production manager! Now I lead
+                    a team of four people and I am responsible for all the documentation and work that goes on.
                 </p>
             </div>
         </div>
