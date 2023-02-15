@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Alex Frankhouser's React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a single-page application that uses React to dynamically render it's content. It contains an "About Me", Portfolio, Resume, and Contact section. <br>
+- `About Me` section contains a brief paragraph about myself, my past, and my goals.
+- The `Portfolio` section contains 6 projects that I developed myself or that I developed with a group of people.
+- The  `Resume` section contains a list of skills that I have learned and feel comfortable with. Also on this page you can download my full resume.
+- The `Contact` section contains a form that can be filled out and will eventually send me an email (as of 2/14/23 it doesn't not fully work, but if you do wish to contact me their is an email icon at the bottom that if clicked on will bring you to your email. This is where you can contact me for now).
 
-## Available Scripts
+## Installation
+If you wish to install this application, then first you must clone this repository to your local device. Then in the terminal type `npm i` to install all dependencies. After that type `npm start` to start the application.
 
-In the project directory, you can run:
+## Usage
+When first visiting this web application the `About Me` section will appear. From their you can click on what page you want to visit next by selection the options in the navbar.
 
-### `npm start`
+- About Me:
+![About Me page](public/assets/Screenshot%20(42).png)
+- Portfolio:
+![Portfolio page](public/assets/Screenshot%20(43).png)
+- Resume:
+![Resume page](public/assets/Screenshot%20(44).png)
+- Contact:
+![Contact page](public/assets/Screenshot%20(45).png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Links
+GitHub Repository: <br>
+Deployed URL:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact Me
+If you have any questions or concerns please feel free to reach out to me anytime!<br>
+Email: freesoul423@gmail.com<br>
+GitHub: A-Frankhouser
