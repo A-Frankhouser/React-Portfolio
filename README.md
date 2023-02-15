@@ -23,7 +23,7 @@ When first visiting this web application the `About Me` section will appear. Fro
 ![Contact page](public/assets/Screenshot%20(45).png)
 
 ## Links
-GitHub Repository: <br>
+GitHub Repository: https://github.com/A-Frankhouser/React-Portfolio <br>
 Deployed URL:
 
 ## Contact Me
