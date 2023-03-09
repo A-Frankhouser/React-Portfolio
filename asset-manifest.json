@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.ea40f302.css",
-    "main.js": "/React-Portfolio/static/js/main.3f40250c.js",
+    "main.js": "/React-Portfolio/static/js/main.54004d89.js",
     "static/media/headspaceai.png": "/React-Portfolio/static/media/headspaceai.be9d938fffd4665ef202.png",
     "static/media/work-day.png": "/React-Portfolio/static/media/work-day.d30e1d5079c24122cc76.png",
     "static/media/React-Portfolio.jpg": "/React-Portfolio/static/media/React-Portfolio.71ceaad2b676082fc471.jpg",
     "static/media/Resume 2023.pdf": "/React-Portfolio/static/media/Resume 2023.28ee184e7899951e3b72.pdf",
     "static/media/blog-img.png": "/React-Portfolio/static/media/blog-img.e4e4d8ad3a27c039904d.png",
-    "static/media/password-gen.png": "/React-Portfolio/static/media/password-gen.edae1df5dd18baeb1f8a.png",
+    "static/media/PackandGo.png": "/React-Portfolio/static/media/PackandGo.a57b720f354dc205c330.png",
     "static/media/JATE.png": "/React-Portfolio/static/media/JATE.da54d28b1ac82789be90.png",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.3506364fcda6cad1f894.png",
     "index.html": "/React-Portfolio/index.html",
     "main.ea40f302.css.map": "/React-Portfolio/static/css/main.ea40f302.css.map",
-    "main.3f40250c.js.map": "/React-Portfolio/static/js/main.3f40250c.js.map"
+    "main.54004d89.js.map": "/React-Portfolio/static/js/main.54004d89.js.map"
   },
   "entrypoints": [
     "static/css/main.ea40f302.css",
-    "static/js/main.3f40250c.js"
+    "static/js/main.54004d89.js"
   ]
 }
