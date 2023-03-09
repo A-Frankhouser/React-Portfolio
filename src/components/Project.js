@@ -5,8 +5,9 @@ import blogImg from '../assets/blog-img.png'
 import headSpaceImg from '../assets/headspaceai.png'
 import jate from '../assets/JATE.png'
 import noteTakingImg from '../assets/note-taker.png'
-import passwordGen from '../assets/password-gen.png'
+// import passwordGen from '../assets/password-gen.png'
 import workDay from '../assets/work-day.png'
+import packAndGo from '../assets/PackandGo.png'
 
 function Project() {
 
@@ -57,7 +58,7 @@ function Project() {
         {
             projectTitle: 'Pack & Go',
             description: 'A application that helps plan and budget your trips.',
-            projectImage: passwordGen,
+            projectImage: packAndGo,
             technologies:"MERN | JavaScript | Bootstrap | 3rd Party API's | Heroku | GitHub",
             deployedURL: 'https://packandgo.herokuapp.com/',
             gitHubLink: 'https://github.com/julianbenchimol/trip-budget-manager'
