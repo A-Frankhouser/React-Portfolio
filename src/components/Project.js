@@ -53,14 +53,14 @@ function Project() {
             gitHubLink: 'https://github.com/A-Frankhouser/Work-Day-Scheduler'
         },
 
-        // Password Generator:
+        // Pack & Go:
         {
-            projectTitle: 'Password Generator',
-            description: 'A simple web application that allows users to randomly generate a password based on the criteria they set.',
+            projectTitle: 'Pack & Go',
+            description: 'A application that helps plan and budget your trips.',
             projectImage: passwordGen,
-            technologies:'HTML/CSS | JavaScript | GitHub Pages',
-            deployedURL: 'https://a-frankhouser.github.io/Password-Generator/',
-            gitHubLink: 'https://github.com/A-Frankhouser/Password-Generator'
+            technologies:"MERN | JavaScript | Bootstrap | 3rd Party API's | Heroku | GitHub",
+            deployedURL: 'https://packandgo.herokuapp.com/',
+            gitHubLink: 'https://github.com/julianbenchimol/trip-budget-manager'
         },
 
         // PWA Text Editor
