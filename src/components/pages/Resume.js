@@ -59,6 +59,8 @@ function Resume() {
                         <li>NoSQL (MongoDB, Mongoose)</li>
                         <li>GraphQL</li>
                         <li>Webpack</li>
+                        <li>Apollo</li>
+                        <li>GraphQL</li>
                     </ul>
                 </div>
             </div>
