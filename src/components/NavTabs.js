@@ -34,14 +34,14 @@ function NavTabs({ currentPage, handlePageChange }) {
             </li>
 
     {/* Contact Section:  */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <a
                     href="#contact"
                     onClick={() => handlePageChange("Contact")}
                     className={currentPage === "Contact" ? "nav-link active" : "nav-link"}>
                     Contact
                 </a>
-            </li>
+            </li> */}
     </ul>
     );
 }
